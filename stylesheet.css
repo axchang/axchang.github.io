@@ -1,0 +1,154 @@
+/*Styling of the homepage*/
+html{
+	height: 100%;
+	width: 100%;
+}
+
+a{
+	text-decoration: none;
+	color: rgb(85, 5, 60);
+}
+
+.home{
+	padding: 0;
+	margin: 0;
+	background-image: url('img/cover.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.empty_div{
+	height: 90vh;
+	width: 100vw;
+}
+
+.nav_bar{
+	width: 100vw;
+	height: 10vh;
+	padding-bottom: 0;
+	background-image: url('texture.jpg');
+	background-color: rgba(255,255,255,0.6);
+	vertical-align: text-center;
+	z-index: 2
+}
+
+.nav_el{
+	padding-right:2%;
+	margin:0;
+	list-style-type: none;
+	display: inline-block;
+	z-index: 1;
+	font-family: 'Cardo';
+}
+
+#amy_navlink{
+	font-family:'Playfair Display SC', serif;
+	font-size: 200%;
+	padding-right: 20%;
+}
+
+a:hover{
+	color: brown;
+}
+
+/*Styling of the about page*/
+h1 {
+	text-align: right;
+	font-style: italic;
+	padding-right: 5%;
+	font-family: 'Italianno', cursive;
+}
+
+#about_text{
+	padding-top:0;
+	width: 100vw;
+	background-color: white;
+	list-style-type: none;
+	display: inline-block;
+	float: left;
+}
+
+.about_nouns{
+	list-style-type: none;
+	display: inline-block;
+	float: left;
+	padding-right: 2%;
+}
+
+.about_photos{
+	width: 20vw;
+	height: 40vw;
+	padding: 3%;
+	opacity: .5;
+	margin-bottom: 10%;
+	border: solid;
+	border-width: 40%;
+}
+
+a:hover .about_photos{
+	opacity: 1;
+	-moz-transform: scale(1.05); 
+	-webkit-transform:scale(1.05);
+	-o-transform:scale(1.05);
+}
+
+#about_photo1{
+	background-image: url('img/student2.jpg');
+	background-size: cover;
+}
+
+#about_photo2{
+	background-image: url('img/traveler.jpg');
+	background-size: cover;
+}
+
+#about_photo3{
+	background-image: url('img/speaker2.jpg');
+	background-size: cover;
+}
+
+#about_photo4{
+	text-align: right;
+	opacity: 1;
+	font-family: 'Cardo', serif;
+	font-style: italic;
+	border-radius: 20px;
+}
+
+
+
+
+/* My attempts to figure out a grid layout for my about page
+
+.about_photos{
+	width: 20vw;
+	height: 75vh;
+	padding:5%;
+	opacity: .5;
+}
+
+.stack_photos{
+	list-style-type: none;
+	display: block;
+	height: 30vh;
+	width: 30vw;
+}
+
+#about_photo1{
+	background-image: url("img/student2.jpg");
+	background-size: contain;
+	background-repeat: none;
+	height: 50vh;
+}
+
+#about_photo2{
+	background-image: ur("img/traveler.jpg");
+	background-size: contain;
+	height: 50vh;
+}
+
+#about_photo3{
+	background-image: url("img/speaker2.jpg");
+	background-size: contain;
+	background-repeat: no-repeat
+}*/

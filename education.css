@@ -1,0 +1,96 @@
+html{
+	height: 100%;
+	margin: 0;
+	background-image: url('img/cover.jpg');
+	background-size: cover;
+}
+
+.opaque_wrapper{
+	background-color: white;
+	margin-0;
+}
+
+a{
+	text-decoration: none;
+	color: rgb(85, 5, 60);
+}
+.nav_bar{
+	margin: 0;
+	width: 100vw;
+	height: 10vh;
+	background-color: rgba(255,255,255,0.6);
+	z-index: 2
+}
+
+.nav_el{
+	padding-right:2%;
+	margin:0;
+	list-style-type: none;
+	display: inline-block;
+	z-index: 1;
+	font-family: 'Cardo';
+}
+
+#amy_navlink{
+	font-family:'Playfair Display SC', serif;
+	font-size: 200%;
+	padding-right: 20%;
+}
+
+.education_links{
+	list-style-type: none;
+	display: block;
+	align
+}
+
+.line1{
+	margin: 0;
+	list-style-type: none;
+	display: inline-block;
+}
+
+.line1 div{
+	padding: 5%;
+	opacity: 0.6;
+}
+
+.education_div{
+	padding: 0 2%;
+}
+
+#rmsa, #gssm, #yale{
+	border: solid;
+	border-width: 0.5em;
+	border-color: rgba(75, 5, 60, 0.9);
+}
+
+#rmsa{
+	height: 40vh;
+	width: 30vw;
+	background-image: url('img/rmsa.jpg');
+	background-size: cover;
+}
+
+#gssm{
+	height: 40vh;
+	width: 30vw;
+	/*margin-left: 2%;*/
+	background-image: url('img/scgssm.jpg');
+	background-size: cover;
+}
+
+#yale{
+	margin-left: 5%;
+	height:50vh;
+	width: 70vw;
+	background-image: url('img/yale.jpg');
+	background-size: cover;
+}
+
+#rmsa_text{
+	padding: 5%;
+	margin: 15%;
+	font-family: "Cardo", serif;
+	border: solid;
+	border-radius: 20px;
+}
