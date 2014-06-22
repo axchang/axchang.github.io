@@ -12,7 +12,7 @@ a{
 .home{
 	padding: 0;
 	margin: 0;
-	background-image: url('img/cover.jpg');
+	background-image: url('cover.jpg');
 	background-size: cover;
 	background-attachment: fixed;
 }
@@ -26,7 +26,6 @@ a{
 	width: 100vw;
 	height: 10vh;
 	padding-bottom: 0;
-	background-image: url('texture.jpg');
 	background-color: rgba(255,255,255,0.6);
 	vertical-align: text-center;
 	z-index: 2
@@ -93,17 +92,17 @@ a:hover .about_photos{
 }
 
 #about_photo1{
-	background-image: url('img/student2.jpg');
+	background-image: url('student2.jpg');
 	background-size: cover;
 }
 
 #about_photo2{
-	background-image: url('img/traveler.jpg');
+	background-image: url('traveler.jpg');
 	background-size: cover;
 }
 
 #about_photo3{
-	background-image: url('img/speaker2.jpg');
+	background-image: url('speaker2.jpg');
 	background-size: cover;
 }
 
