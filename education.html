@@ -3,23 +3,72 @@
 <link rel="stylesheet" type = "text/css" href="education.css">
 <head>
 	<title>Amy Chang | Education</title>
+		<!-- INCLUDES JQUERY -->
+		<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.1.min.js"></script>
+		<script src="myscripts.js" type="text/javascript" charset="utf-8"></script>
+		
 </head>
 <body>
-<!-- Creates the navbar at the top of the page -->
+<!-- Creates the navbar at the bottom of the page with the empty div pushing it down-->
+	
+	<div class="empty_div"></div>
 	<header class = "nav_bar">
 			<ul>
 				<li class = "nav_el" id="amy_navlink"><a href="index.html">AMY CHANG</a></li>
-				<li class = "nav_el"><a href="index.html#about">ABOUT</a></li>
-				<li class = "nav_el"><a href="education.html">EDUCATION</a></li>
+				
+				<!-- Adjusts spacing in nav_bar-->
+				<li class = "nav_el"></li>
+				<li class = "nav_el"></li>
+				<li class = "nav_el"></li>
+				<li class = "nav_el"></li>
+				<li class = "nav_el"></li>
+				<li class = "nav_el"></li>
+				<li class = "nav_el"></li>
+				<li class = "nav_el"></li>
+
+				<li class = "nav_el"><a href="#about">ABOUT</a></li>
+				<li class = "nav_el"><a href="education.html#education_page">EDUCATION</a></li>
 				<li class = "nav_el"><a href="work.html">WORK</a></li>
 				<li class = "nav_el"><a href="activities.html">ACTIVITIES</a></li>
-				<li class = "nav_el"><a href="contact.hrml">CONTACT</a></li>
+				<li class = "nav_el">
+					<a title="send to Facebook" href="https://www.facebook.com/amy.chang.7731247" target="_blank"><span> <img width="17" height="17" src="img/fb_logo.png" alt="Facebook"></span>
+					</a>
+				<li class = "nav_el">
+					<a title="send to Google Plus" href="https://plus.google.com/u/0/114788400033906784944/posts"><span><img width="17" height="17" src="img/google_plus.png" alt="Google Plus"</a></span>
+
+				</li>
 			</ul>
 		</header>
 
 <!-- Creating the navigational grid; use divs enclosed in divs to achieve grid effect -->
 <!-- Created an opaque wrapper to give a white background	 -->
-	<div class="opaque_wrapper">
+		<div class = "opaque_wrapper">
+			<a name="education_page"><h1>Education</h1></a>
+			<a href="#rmsa"><div class = "education_photo" class = "education_links" id="rmsa"></div></a>
+			<a href="#gssm"><div class = "education_photo" class = "education_links" id="gssm"></div></a>
+			
+				<div id = "ed_text_box"> 
+				<h2>Rollings Middle School of the Arts</h2>
+				<p class = "education_text" >Establishing admissions through an audition process, Rollings Middle School of the Arts features six fine arts "cores," or specialties:  Dance, Theatre, Visual Arts, Vocal, Piano, and Strings. Each student auditions for a core of their choice and will, upon admission, spend three hours each day in their core course. Along with the core, RMSA's academic curriculum includes rigorous courses in each of the distributional subjects: Math, Science, Social Studies, and Language Arts.</br><br> At Rollings, Amy enrolled in the Strings core, auditioning on the piano, which she has studied since the age of five. >
+				</p>
+			</div>
+			<a href="#yale"><div class = "education_photo" id = "yale"></div></a>
+			
+		</div>
+		<div class="another_empty"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 	<div class="opaque_wrapper">
 		<nav>
 			<ul>
 				<li class="education_links">
@@ -34,11 +83,11 @@
 				<li  class="education_links"> <div id="yale"> Yale </div></li>
 
 			</ul>
-		</nav>
+		</nav> -->
 
 		<!-- Body information on my education -->
 		<!-- Link them to a later location of my page -->
-		<section class="opaque_background" id="rmsa_text"><a name="rmsa_text"></a>
+	<!-- 	<section class="opaque_background" id="rmsa_text"><a name="rmsa_text"></a>
 			<h2>Rollings Middle School of the Arts</h2>
 			<p>Establishing admissions through an audition process, Rollings Middle School of the Arts features six fine arts "cores," or specialties:  Dance, Theatre, Visual Arts, Vocal, Piano, and Strings. Each student auditions for a core of their choice and will, upon admission, spend three hours each day in their core course. Along with the core, RMSA's academic curriculum includes rigorous courses in each of the distributional subjects: Math, Science, Social Studies, and Language Arts.</br><br> At Rollings, Amy enrolled in the Strings core, auditioning on the piano, which she has studied since the age of five. In her three years there, Amy was elected to Student Council and served as a Student Ambassador. She received the awards of Overall Student of the Year, Science Student of the Year, and Social Studies Student of the Year.
 			</section>
@@ -47,7 +96,7 @@
 			<h2>South Carolina Governor's School for Science and Mathematics</h2>
 			</section>
 
-	</div>
+	</div> -->
 
 </body>
 

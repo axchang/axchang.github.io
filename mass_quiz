@@ -1,0 +1,40 @@
+class Person
+  def initialize(name)
+    @name = name # Line 3
+  end
+
+  def name
+    @name
+  end
+end
+
+class Christian < Person
+  def initialize(name, sect)
+    @name = name
+    @sect = sect
+  end
+
+  def go_to_mass
+    puts "Going to mass..."
+  end
+end 
+
+abdullah = Christian.new("abdullah", "catholic")
+  
+
+Why is line 3 necessary? What happens without it?
+    There would literally be no instance/ no instantiation of the variable you're trying to create. You wouldn't be able to see it later.
+Is Christian a subclass or a superclass?
+   subclass
+What will running Christian.go_to_mass do? Why?
+   It will crash becuase you can't/shouldn't call a method on a class.
+What will running abdullah.sect do? Why? If you think it's broken, how can you fix it? If you think it works, what does it return?
+    Technically, will throw an error. Could create an accessor because sect isn't actually a method.
+What is abdullah? Choose all that apply:
+  A class
+  A method
+  An instance
+  An object
+  A variable
+
+  It is an instance, an object, and a variable

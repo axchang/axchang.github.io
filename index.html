@@ -1,36 +1,60 @@
 <!DOCTYPE html>
 
 <html class="home">
-	<link rel="stylesheet" type = "text/css" href="stylesheet.css">
-	<link href='http://fonts.googleapis.com/css?family=Droid+Serif:400italic|Crimson+Text:400,600italic|Playfair+Display+SC:400,400italic' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Tangerine:400,700|Italianno' rel='stylesheet' type='text/css'>
+<!-- LINKS ALL NECESSARY EXTERNAL SHEETS AND FONTS -->
+	
 	<head>
 		<title>Amy Chang | Profile</title>	
+		<link rel="stylesheet" type = "text/css" href="stylesheet.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<link href='http://fonts.googleapis.com/css?family=Droid+Serif:400italic|Crimson+Text:400,600italic|Playfair+Display+SC:400,400italic' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Tangerine:400,700|Italianno' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
+		
+<!-- CREATES AN EMPTY DIV TO PUSH THE NAV BAR TO THE BOTTOM -->
 		<div class="empty_div"></div>
 
+<!-- CREATES THE FLOATING AND FIXED NAV BAR AT THE BOTTOM OF THE PAGE -->
 		<nav class = "nav_bar">
 			<ul>
 				<li class = "nav_el" id="amy_navlink"><a href="index.html">AMY CHANG</a></li>
+				
+				<!-- Adjusts spacing in nav_bar-->
+				<li class = "nav_el"></li>
+				<li class = "nav_el"></li>
+				<li class = "nav_el"></li>
+				<li class = "nav_el"></li>
+				<li class = "nav_el"></li>
+				<li class = "nav_el"></li>
+				<li class = "nav_el"></li>
+				<li class = "nav_el"></li>
+
 				<li class = "nav_el"><a href="#about">ABOUT</a></li>
-				<li class = "nav_el"><a href="education.html">EDUCATION</a></li>
+				<li class = "nav_el"><a href="education.html#education_page">EDUCATION</a></li>
 				<li class = "nav_el"><a href="work.html">WORK</a></li>
 				<li class = "nav_el"><a href="activities.html">ACTIVITIES</a></li>
-				<li class = "nav_el"><a href="contact.hrml">CONTACT</a></li>
+				<li class = "nav_el">
+					<a title="send to Facebook" href="https://www.facebook.com/amy.chang.7731247" target="_blank"><span> <img width="17" height="17" src="img/fb_logo.png" alt="Facebook"></span>
+					</a>
+				<li class = "nav_el">
+					<a title="send to Google Plus" href="https://plus.google.com/u/0/114788400033906784944/posts"><span><img width="17" height="17" src="img/google_plus.png" alt="Google Plus"</a></span>
+
+				</li>
 			</ul>
 		</nav>
 
-
-<!-- Creates the three photo and one textarea navigation layout for the about page -->
+<!-- CREATES THE THREE PHOTOS AND ONE TEXT BOX IN LINE -->
 		<div id="about_text"><a name="about"></a>
 		<h1>About</h1>
 			<ul>
-				<li class = "about_nouns"><a href="education.html"> <div class="about_photos" id="about_photo1"></div></a></li>
+				<li class = "about_nouns"><a href="education.html#education_page"><div class="about_photos" id="about_photo1"></div></a></li>
 				<li class = "about_nouns"><a href="work.html"> <div class="about_photos" id="about_photo3"></div></a></li>
 				<li class = "about_nouns"><a href="activities.html"> <div class="about_photos" id="about_photo2"></div></a></li>
-				<li class = "about_nouns"><div class="about_photos" id="about_photo4"><p> From a young age, Amy has loved learning and fighting dinosaurs. While Amy is formally declared as a biomedical engineering major, she is considering switching to Global Affairs, which captures one of Amy's deep interests. She is also considering dropping out of school to improve Gretchen Wieners' father's toaster streudel. Today, Amy is a student, researcher, world traveler, writer, and musician.</p></div></li>
+				<li class = "about_nouns"><div class="about_photos" id="about_photo4"><p> Since a young age, I have loved fighting dinosaurs. While I'm formally declared as a biomedical engineering major, I'm considering switching to Global Affairs, which captures a deep interest. However, I've long entertained the notion of dropping out of school to improve Gretchen Wieners' father's toaster streudel. Today, I am at once a student, researcher, world traveler, writer, and musician.</p></div></li>
 		</div>
+
+		<div class="another_empty"></div>
 
 
 	<!-- Thought I needed these divs for my nav bar photos but don't 	
@@ -44,6 +68,7 @@
 			<div id="mover"><p>Mover<p></div>
 			<div id="writer"><p>Writer<p></div>
 		</div> -->
+
 
 	</body>
 

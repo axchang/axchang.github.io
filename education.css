@@ -1,4 +1,158 @@
+/*SETS THE ENTIRE WEB PAGE*/
+
 html{
+	height: 100%;
+	margin: 0;
+	background-image: url('img/cover.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+/*SETS THE WRAPPER FOR THE EDUCATION DIVS*/
+.opaque_wrapper{
+	background-image: url('img/escher_1.jpg');
+	background-size: cover;
+	height: 90vh;
+	width: 100vw;
+	margin: 0;
+}
+
+a{
+	text-decoration: none;
+	color: rgb(85, 5, 60);
+}
+
+/*CREATES AN EMPTY DIV TO PUSH THE INFO DOWN*/
+.empty_div{
+	height: 90vh;
+	width: 100vw;
+}
+
+/*CREATES THE NAV BAR*/
+.nav_bar{
+	float: left;
+	position: fixed;
+	width: 100vw;
+	height: 10vh;
+	padding-bottom: 0;
+	background-color: rgba(255,255,255,0.4);
+	vertical-align: text-center;
+	z-index: 2
+}
+
+.nav_el{
+	padding-right:2%;
+	margin:0;
+	list-style-type: none;
+	display: inline-block;
+	z-index: 1;
+	font-family: 'Cardo';
+}
+
+#amy_navlink{
+	font-family:'Playfair Display SC', serif;
+	font-size: 200%;
+	padding-right: 20%;
+}
+
+
+/*SHOULD SET ALL THE */
+.education_links{
+	float: left;
+	display: inline-block;
+	height:100vh;
+	width:100vw;
+	margin-bottom: 1.5vw;
+}
+
+.another_empty{
+	float: left;
+	height:10vh;
+	width: 100vw;
+	background: rgba(0);
+}
+
+h1 {
+	text-align: right;
+	font-style: italic;
+	padding-right: 5%;
+	font-family: 'Italianno', cursive;
+}
+
+#rmsa, #gssm, #yale{
+	border: solid;
+	border-width: -0.5em;
+	border-color: rgba(75, 5, 60, 0.9);
+	background-clip: border-box;
+}
+
+#rmsa{
+	margin-top: -4%;
+	margin-left: 4%;
+	margin-right: 1vw;
+	float:left;
+	height:30vh;
+	width:20vw;
+	background-image: url('img/rmsa2.jpg');
+	background-size: cover;
+}
+
+#gssm{
+	margin-top: -4%;
+	float:left;
+	margin-left: 1vw;
+	height:30vh;
+	width:20vw;
+	background-image: url('img/scgssm2.jpg');
+	background-size: cover;
+}
+
+#yale{
+	border-width: -.75em;
+	margin-top: 1.5vw;
+	margin-left: 4%;
+	float: left;
+	display: block;
+	height:50vh;
+	width: 42vw;
+	background-image: url('img/yale.jpg');
+	background-size: cover;
+}
+
+.education_text{
+	text-align: right;
+	float: right;
+	height: 40vh;
+	width: 30vw;
+	border: solid;
+	margin-right: 5%;
+	padding: 5%;
+	border-radius: 30px;
+	background-color: rgba(255,255,255,0.8)
+}
+
+.education_photo{
+	opacity: .7;
+}
+
+a:hover{
+	color: brown;
+}
+
+a:hover .education_photo {
+	opacity: 2;
+	-moz-transform: scale(1.05); 
+	-webkit-transform:scale(1.05);
+	-o-transform:scale(1.05);
+}
+
+h2{
+	text-align: right;
+	margin-right: 5%;
+	color: rgb(85, 5, 60);
+}
+
+/*html{
 	height: 100%;
 	margin: 0;
 	background-image: url('img/cover.jpg');
@@ -7,7 +161,7 @@ html{
 
 .opaque_wrapper{
 	background-color: white;
-	margin-0;
+	margin: 0;
 }
 
 a{
@@ -74,7 +228,6 @@ a{
 #gssm{
 	height: 40vh;
 	width: 30vw;
-	/*margin-left: 2%;*/
 	background-image: url('img/scgssm.jpg');
 	background-size: cover;
 }

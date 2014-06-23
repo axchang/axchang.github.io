@@ -1,14 +1,10 @@
-/*Styling of the homepage*/
+/*GIVES A REFERENCE HEIGHT AND WIDTH*/
 html{
 	height: 100%;
 	width: 100%;
 }
 
-a{
-	text-decoration: none;
-	color: rgb(85, 5, 60);
-}
-
+/*SETS THE ENTIRE PAGE'S BACKGROUND PHOTO*/
 .home{
 	padding: 0;
 	margin: 0;
@@ -17,21 +13,29 @@ a{
 	background-attachment: fixed;
 }
 
+/*SETS AN AREA TO PUSH THE NAV BAR DOWN*/
 .empty_div{
 	height: 90vh;
 	width: 100vw;
 }
 
+/*FLOATS MY NAV BAR AND FIXES IT TO THE BOTTOM OF THE PAGE*/
 .nav_bar{
+	float: left;
+	position: fixed;
 	width: 100vw;
 	height: 10vh;
 	padding-bottom: 0;
-	background-image: url('texture.jpg');
-	background-color: rgba(255,255,255,0.6);
+	background-color: rgba(255,255,255,0.4);
 	vertical-align: text-center;
 	z-index: 2
 }
 
+.nav_bar a{
+	text-decoration: none
+}
+
+/*SETS THE NAV BAR ELEMENTS*/
 .nav_el{
 	padding-right:2%;
 	margin:0;
@@ -47,11 +51,17 @@ a{
 	padding-right: 20%;
 }
 
+/*SETS THE HOVER AND VISITED FOR EACH LINK*/
+
 a:hover{
 	color: brown;
 }
 
-/*Styling of the about page*/
+a:visited{
+	text-decoration: none;
+}
+
+/*STYLING OF THE ABOUT PAGE*/
 h1 {
 	text-align: right;
 	font-style: italic;
@@ -59,13 +69,23 @@ h1 {
 	font-family: 'Italianno', cursive;
 }
 
+/*STYLES THE ENTIRE CONTENT AREA, GIVES AN OPAQUE BACKGROUND*/
 #about_text{
-	padding-top:0;
+	margin-top: 10vh;
+	height: 90vh;
 	width: 100vw;
 	background-color: white;
 	list-style-type: none;
 	display: inline-block;
 	float: left;
+}
+
+/*EMPTY DIV FOR SPACING, SUCH THAT THE ABOUT PAGE DOESN'T CONFLICT WITH THE NAV_BAR*/
+.another_empty{
+	float: left;
+	height:10vh;
+	width: 100vw;
+	background: rgba(0);
 }
 
 .about_nouns{
